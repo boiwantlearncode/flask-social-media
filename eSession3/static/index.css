@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#greetings {
+    background-color: purple;
+    border-bottom: 2px solid black;
+    height: 5vh;
+    width: 100vw;
+}
+
+#uploadPost {
+    background-color: blue;
+}
+
+.post {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: aquamarine;
+    height: 500px;
+    width: 650px;
+}
